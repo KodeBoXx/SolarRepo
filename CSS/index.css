@@ -1,0 +1,134 @@
+header {
+	background-image: url("../IMAGE/HeadingImage2.png");
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+
+header .logo {
+	float: left;
+	margin: 15px 0px 0px 30px;
+}
+
+header .logo span {
+	color: black;
+	font-size: 25px;
+	transform: rotate(20deg);
+	font-size: 25px;
+}
+
+header nav {
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+header nav a {
+	display: inline-block;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+}
+
+header nav a:HOVER {
+	color: #3e3e3e;
+	text-decoration: none;
+}
+
+header h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1.05px;
+	text-align: center;
+	clear: both;
+	padding-top: 60px;
+}
+
+header h1 span {
+	display: inline-block;
+	padding: 0.3em 0.4em;
+	border-top: 6px solid black;
+	border-bottom: 6px solid black;
+}
+
+header .sologan {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+}
+
+.other {
+	height: 800px;
+}
+
+footer {
+	background-image: url("../IMAGE/HeadingImage2.png");
+	height: 120px;
+	background-size: cover;
+}
+
+footer .lookup {
+	padding-top: 45px;
+	padding-left: 30px;
+}
+
+footer .lookup .logo {
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+footer .lookup .logo span {
+	color: #003d79;
+	font-size: 25px;
+	transform: rotate(20deg);
+	font-size: 25px;
+}
+
+footer .lookup .content-wrap {
+	float: left;
+}
+
+footer .lookup .content-wrap nav a {
+	display: inline-block;
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: #013263;
+}
+
+footer .lookup .content-wrap .copyright {
+	margin: 0px;
+	text-transform: uppercase;
+	color: #04519c;
+}
+
+footer .lookup .content-wrap nav a:HOVER {
+	color: #3e3e3e;
+	text-decoration: none;
+}
+
+.info {
+	margin-right: 12%;
+	margin-left: 12%;
+}
+
+.info .info-head {
+	font-size: 39px;
+	text-align: center;
+	margin-top: 30px;
+	color: #3da0fe;
+	text-transform: uppercase;
+}
+
+.info .info-content {
+	font-size: 29px;
+	text-align: center;
+	margin-top: 11px;
+	color: grey;
+}
